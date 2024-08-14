@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  color: white;
+}
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #0f1111;
+  color: white;
+  display: grid;
+  grid-template-columns: 12% 64% 24%;
+  place-items: center;
+}
+
+.left-nav {
+  display: grid;
+  height: 83.4%;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  column-gap: 5px;
+}
+
+.logo {
+  margin-left: 5px;
+  height: 100%;
+  width: 100%;
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  padding-top: 4px;
+}
+
+.location {
+  height: 100%;
+  width: 90%;
+  /* background-color: aqua; */
+  display: grid;
+  place-items: center;
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 4px;
+  padding-bottom: 9px;
+}
+
+#loc-icon {
+  font-size: 0.9rem;
+  margin-left: 7px;
+}
+
+.loc-row-one {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  width: 100%;
+  height: 100%;
+  align-items: end;
+}
+
+#deliverto {
+  color: #ccc;
+  font-size: 0.75rem;
+}
+
+.loc-row-two {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+}
+
+#coun-nme {
+  justify-self: start;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.search {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 4% 92% 4%;
+  padding: 10px 4px 10px 3px;
+}
+
+#select {
+  background-color: #e6e6e6;
+  padding-left: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: black;
+}
+
+#search-icon {
+  background-color: #febd68;
+  font-size: 1.1rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: black;
+}
+
+.right-nav {
+  display: grid;
+  width: 100%;
+  height: 83.4%;
+  grid-template-columns: 20% 32% 19% 29%;
+  place-items: center;
+}
+
+.language {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 9.5px;
+  font-size: 0.875rem;
+}
+
+.signin {
+  height: 100%;
+  width: 90%;
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.signin-top {
+  display: grid;
+  font-size: 0.75rem;
+  align-self: end;
+  margin-left: 9px;
+  font-weight: 500;
+}
+
+.signin-btm {
+  font-size: 0.875rem;
+  margin-left: 9px;
+  font-weight: 500;
+}
+
+.return {
+  height: 100%;
+  width: 90%;
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.return-top {
+  display: grid;
+  font-size: 0.75rem;
+  align-self: end;
+  margin-left: 9px;
+  font-weight: 500;
+}
+
+.return-btm {
+  font-size: 0.875rem;
+  margin-left: 9px;
+  font-weight: 500;
+}
+
+/* .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+
+  padding: 0;
+} */
+
+.cart {
+  height: 100%;
+  width: 80%;
+  padding-bottom: 8px;
+  display: grid;
+  align-items: end;
+  /* justify-content: center; */
+  grid-template-columns: 35% 65%;
+}
+
+#cart-logo {
+  margin-left: 7px;
+  margin-right: 5px;
+  font-size: 1.9rem;
+  margin-bottom: 0;
+  padding-top: 1px;
+}
+
+#cart-cart{
+  font-size: 0.875rem;
+}
+
+.bord {
+  border: 1px solid transparent;
+}
+
+.bord:hover {
+  border: 1px solid white;
+}
+
+
+.navbar-min{
+  display: flex;
+  height: 39px;
+  background-color: #232f3e;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.all{
+  display: flex;
+  height: 100%;
+  width : 3.5%;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.deals{
+  display: flex;
+  height: 100%;
+  width : 6%;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-service{
+  display: flex;
+  height: 100%;
+  width : 7.3%;
+  align-items: center;
+  justify-content: center;
+}
+
+.registry{
+  display: flex;
+  height: 100%;
+  width : 4.1%;
+  align-items: center;
+  justify-content: center;
+}
+
+.gift{
+  display: flex;
+  height: 100%;
+  width : 4.7%;
+  align-items: center;
+  justify-content: center;
+}
+
+.sell{
+  display: flex;
+  height: 100%;
+  width : 2.6%;
+  align-items: center;
+  justify-content: center;
+}

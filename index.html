@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="left-nav">
+          <div class="logo bord"></div>
+          <div class="location bord">
+            <div class="loc-row-one">
+              <div></div>
+              <div id="deliverto">Deliver to</div>
+            </div>
+            <div class="loc-row-two">
+              <i class="fa-solid fa-location-dot" id="loc-icon"></i>
+              <div id="coun-nme">India</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="search">
+          <select id="select">
+            <option>All</option>
+            <option>All Departments</option>
+            <option>Arts &amp; Crafts</option>
+            <option>Automotive</option>
+            <option>Baby</option>
+            <option>Beauty &amp; Personal Care</option>
+            <option value="search-alias=stripbooks-intl-ship">Books</option>
+            <option value="search-alias=fashion-boys-intl-ship">
+              Boys' Fashion
+            </option>
+            <option value="search-alias=computers-intl-ship">Computers</option>
+            <option value="search-alias=deals-intl-ship">Deals</option>
+            <option value="search-alias=digital-music">Digital Music</option>
+            <option value="search-alias=electronics-intl-ship">
+              Electronics
+            </option>
+            <option value="search-alias=fashion-girls-intl-ship">
+              Girls' Fashion
+            </option>
+            <option value="search-alias=hpc-intl-ship">
+              Health &amp; Household
+            </option>
+            <option value="search-alias=kitchen-intl-ship">
+              Home &amp; Kitchen
+            </option>
+            <option value="search-alias=industrial-intl-ship">
+              Industrial &amp; Scientific
+            </option>
+            <option value="search-alias=digital-text">Kindle Store</option>
+            <option value="search-alias=luggage-intl-ship">Luggage</option>
+            <option value="search-alias=fashion-mens-intl-ship">
+              Men's Fashion
+            </option>
+            <option value="search-alias=movies-tv-intl-ship">
+              Movies &amp; TV
+            </option>
+            <option value="search-alias=music-intl-ship">
+              Music, CDs &amp; Vinyl
+            </option>
+            <option value="search-alias=pets-intl-ship">Pet Supplies</option>
+            <option value="search-alias=instant-video">Prime Video</option>
+            <option value="search-alias=software-intl-ship">Software</option>
+            <option value="search-alias=sporting-intl-ship">
+              Sports &amp; Outdoors
+            </option>
+            <option value="search-alias=tools-intl-ship">
+              Tools &amp; Home Improvement
+            </option>
+            <option value="search-alias=toys-and-games-intl-ship">
+              Toys &amp; Games
+            </option>
+            <option value="search-alias=videogames-intl-ship">
+              Video Games
+            </option>
+            <option value="search-alias=fashion-womens-intl-ship">
+              Women's Fashion
+            </option>
+          </select>
+
+          <input type="text" placeholder="Search Amazon" />
+
+          <button id="search-icon">
+            <i class="fa-solid fa-magnifying-glass" id="icon-icon"></i>
+          </button>
+        </div>
+
+        <div class="right-nav">
+          <div class="language bord">EN</div>
+
+          <div class="signin bord">
+            <div class="signin-top">Hello,sign in</div>
+            <div class="signin-btm">Account & Lists</div>
+          </div>
+
+          <div class="return bord">
+            <div class="return-top">Returns</div>
+            <div class="return-btm">& Orders</div>
+          </div>
+
+          <div class="cart bord">
+            <span class="material-symbols-outlined" id="cart-logo"
+              >shopping_cart_checkout</span
+            >
+            <span id="cart-cart">Cart</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar-min">
+        <div class="all">
+          <span class="material-symbols-outlined"> menu</span>All
+        </div>
+        <div class="deals">Today's Deals</div>
+        <div class="customer-service">Customer service</div>
+        <div class="registry">Registry</div>
+        <div class="gift">Gift Cards</div>
+        <div class="sell">Sell</div>
+        <div class="deals-in-electron">Shop Deals in Electronics</div>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <div class="inside-container">
+        <div class="carousal">
+          <div id="left-arrow">
+            <i class="fa-solid fa-chevron-left"></i>
+          </div>
+          <div id="right-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+
+        <div>
+          <p id="go-to-amazon-in">
+            You are on amazon.com. You can also shop on Amazon India for
+            millions of products with fast local delivery.
+            <span>Click here to go to amazon.in</span>
+          </p>
+        </div>
+
+        <div class="today-deal">
+          <div class="div-dim">
+            <h2>Gaming Accessories</h2>
+            <div class="div-dim-row1">
+              <div class="div-dim-row1-11">
+                <div class="img1">
+                  <img src="./assets/headset.jpg" alt="headset" />
+                </div>
+                <p>Headsets</p>
+              </div>
+              <div class="div-dim-row1-12">
+                <img src="./assets/keyboard.jpg" alt="keyboards" />
+                <p>Keyboards</p>
+              </div>
+            </div>
+            <div class="div-dim-row2">
+              <div class="div-dim-row2-21">
+                <img src="./assets/mouse.jpg" alt="mouse" />
+                <p>Computer mice</p>
+              </div>
+              <div class="div-dim-row2-22">
+                <img src="./assets/chair.jpg" alt="chair" />
+                <p>Chairs</p>
+              </div>
+            </div>
+            <div class="div-dim-bottom">
+              <a href="" target="_blank">See more</a>
+            </div>
+          </div>
+
+          <div class="div-dim">
+            <h2>Shop Deals in Fashion</h2>
+            <div class="div-dim-row1">
+              <div class="div-dim-row1-11">
+                <div class="img1">
+                  <img src="./assets/jeans.jpg" alt="jeans" />
+                </div>
+                <p>Jeans under $50</p>
+              </div>
+              <div class="div-dim-row1-12">
+                <img src="./assets/tops.jpg" alt="tops" />
+                <p>Tops under $25</p>
+              </div>
+            </div>
+            <div class="div-dim-row2">
+              <div class="div-dim-row2-21">
+                <img src="./assets/dresses.jpg" alt="dresses" />
+                <p>Dresses under #30</p>
+              </div>
+              <div class="div-dim-row2-22">
+                <img src="./assets/shoes.jpg" alt="shoes" />
+                <p>Shoes under $50</p>
+              </div>
+            </div>
+            <div class="div-dim-bottom">
+              <a href="" target="_blank">See all deals</a>
+            </div>
+          </div>
+
+          <div class="div-dim-full">
+            <h2>Deals in PCs</h2>
+            <div class="div-dim-full-img">
+              <img src="./assets/pc.jpg" alt="pc" />
+            </div>
+            <div class="div-dim-bottom">
+              <a href="" target="_blank">Shop now</a>
+            </div>
+          </div>
+
+          <div class="div-dim">
+            <h2>Refresh your space</h2>
+            <div class="div-dim-row1">
+              <div class="div-dim-row1-11">
+                <div class="img1">
+                  <img src="./assets/dining.jpg" alt="dining" />
+                </div>
+                <p>Dining</p>
+              </div>
+              <div class="div-dim-row1-12">
+                <img src="./assets/Home.jpg" alt="home" />
+                <p>Home</p>
+              </div>
+            </div>
+            <div class="div-dim-row2">
+              <div class="div-dim-row2-21">
+                <img src="./assets/kitchen.jpg" alt="kitchem" />
+                <p>Kitchen</p>
+              </div>
+              <div class="div-dim-row2-22">
+                <img src="./assets/health.jpg" alt="health" />
+                <p>See more</p>
+              </div>
+            </div>
+            <div class="div-dim-bottom">
+              <a href="" target="_blank">See all deals</a>
+            </div>
+          </div>
+
+          <div class="div-dim-gadget">
+            <h2>Amazon Gadget Store</h2>
+            <div class="gadgets-row">
+              <div class="gadgets-row1">
+                <img src="./assets/smartphone.jpg" alt="smartphone" />
+              </div>
+              <p>Smartphones</p>
+
+              <div class="gadgets-row-2">
+                <div class="tablets">
+                  <img src="./assets/tablets.jpg" alt="tablet" />
+                  <p>Tablets</p>
+                </div>
+                <div class="laptops">
+                  <img src="./assets/laptops.jpg" alt="laptops" />
+                  <p>Laptops</p>
+                </div>
+                <div class="TVs">
+                  <img src="./assets/tv.jpg" alt="TVs" />
+                  <p>TVs</p>
+                </div>
+              </div>
+            </div>
+            <div class="div-dim-bottom">
+              <a href="" target="_blank">See more from Amazon Gadgets</a>
+            </div>
+          </div>
+
+          <div class="div-dim">
+            <h2>Deals on gifts for Dad</h2>
+            <div class="div-dim-row1">
+              <div class="div-dim-row1-11">
+                <div class="img1">
+                  <img src="./assets/tech.jpg" alt="headset" />
+                </div>
+                <p>Tech</p>
+              </div>
+              <div class="div-dim-row1-12">
+                <img src="./assets/adventure_gear.jpg" alt="keyboards" />
+                <p>Adventure gear</p>
+              </div>
+            </div>
+            <div class="div-dim-row2">
+              <div class="div-dim-row2-21">
+                <img src="./assets/Unique_finds.jpg" alt="mouse" />
+                <p>Unique finds</p>
+              </div>
+              <div class="div-dim-row2-22">
+                <img src="./assets/Health_and_wellness.jpg" alt="chair" />
+                <p>Health & wellness</p>
+              </div>
+            </div>
+            <div class="div-dim-bottom">
+              <a href="" target="_blank">Shop all</a>
+            </div>
+          </div>
+
+          <div class="div-dim-full">
+            <h2>Top Deal</h2>
+
+            <div class="div-dim-full-img" id="top-deal-today">
+              <img
+                src="./assets/top_deal_today.jpg"
+                alt="top deal today"
+                id="top-deal-today-img"
+              />
+            </div>
+
+            <div class="discount-highlight">
+              <div id="disc-div1">Up to 56% off</div>
+              <div id="disc-div2">Ends in 04:21:23</div>
+            </div>
+
+            <p>Lefant Robotic Vaccume Cleaners and Mopping</p>
+
+            <div class="div-dim-bottom">
+              <a href="" target="_blank">See all deals</a>
+            </div>
+          </div>
+
+          <div class="div-dim-full">
+            <h2>Toys under $25</h2>
+            <div class="div-dim-full-img">
+              <img src="./assets/toys.jpg" alt="toys" />
+            </div>
+            <div class="div-dim-bottom">
+              <a href="" target="_blank">Shop now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="btm-signin">
+      <p>See personalized recommendations</p>
+      <button>Sign in</button>
+      <p>
+        New customer? <span><a href="">start here.</a></span>
+      </p>
+    </div>
+
+    <div class="back-to-top">Back to Top</div>
+
+    <div class="bottom-options">
+      <div class="get-to-know">
+        <div class="get-to-know-col col1">
+          <p>Get to Know Us</p>
+          <p>Careers</p>
+          <p>Blog</p>
+          <p>About Amazon</p>
+          <p>Investor Relations</p>
+          <p>Amazon Devices</p>
+          <p>Amazon Science</p>
+        </div>
+      
+
+      <div class="get-to-know-col col2">
+        <p>Make Money with Us</p>
+        <p>Sell Products on Amazon</p>
+        <p>Sell on Amazon Business</p>
+        <p>Sell apps on Amazon</p>
+        <p>Become an Affliate</p>
+        <p>Advertise Your Products</p>
+        <p>Self-Publish with Us </p>
+        <p>Host an Amazon Hub</p>
+        <p>> See More Make Money with Us</p>
+      </div>
+
+      <div class="get-to-know-col col3">
+        <p>Amazon Payment Products</p>
+        <p>Amazon Business Card</p>
+        <p>Shop With Points</p>
+        <p>Reload Your Business</p>
+        <p>Amazon Currency Converter</p>
+      </div>
+
+      <div class="get-to-know-col col4">
+        <p>Let Us Help You</p>
+        <p>Amazon and Covid-19</p>
+        <p>Your Account</p>
+        <p>Your Orders</p>
+        <p>Shipping Rates & Policies</p>
+        <p>Returns & Replacements</p>
+        <p>Manage Your Content and Devices</p>
+        <p>Amazon Assistant</p>
+        <p>Help</p>
+      </div>
+
+    </div>
+
+    <div class="divider-line"></div>
+
+    <div class="footer-nav">
+      <img src="./assets/amazon_logo.png" alt="amazon-logo" class="amazon-logo">
+      
+      <div class="foot-lang">
+        <i class="fa-solid fa-globe"></i>
+        <p>English</p>
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#cccccc"><path d="M480-144 318-306l51-51 111 111 111-111 51 51-162 162ZM369-603l-51-51 162-162 162 162-51 51-111-111-111 111Z"/></svg>
+      </div>
+      
+      <div class="dollars-USD">
+        <div class="dollar-symbol">$</div>
+        <p>USD - U.S.Dollars</p>
+      </div>
+
+      <div class="UnitedStates">
+        <p>United States</p>
+      </div>
+    </div>
+
+    <div class="end-credits">
+      <div class="additional-services">
+        <table>
+        <tbody>
+          <tr>
+            <td><a href="">Amazon Music</a><br>Stream millions <br> of songs</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Amazon Ads</a><br>Reach customers <br> wherever they <br>spend thier time</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">6pm</a><br>Score deals<br> on fashion<br>brands</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">AbeBooks</a><br>Books,art<br>& collectibles</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">ACX</a><br>Audiobook Publishing<br>Made Easy</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Sell on Amazon</a><br>Start a Selling<br>Account</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Amazon<br>Business</a><br>Everything<br>For<br>Your<br>Business</td>
+            <td class="verticalspace"><a href=""></td>
+          </tr>
+
+
+          
+          <tr>
+            <td><a href="">AmazonGlobal</a><br>Ship Orders<br>Internationally</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Home Services</a><br>Experienced Pros <br> happiness <br>Guarentee</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Amazon Web<br>Services</a><br>Scalable Cloud<br>Computing<br>Services</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Audible</a><br>Listen to Books &<br>Original <br>Audio <br>Performances</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Box Offoce Mojo</a><br>Find Movie<br>Box Office Data</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Goodreads</a><br>Book reviews<br> & <br>recommendations</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">IMDb</a><br>Movies, TV<br>& Celebrities</td>
+            <td class="verticalspace"><a href=""></td>
+          </tr>
+
+          <tr>
+            <td><a href="">IMDbPro</a><br>Get Info<br>Entertainment <br>Professionals <br>Need</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Kindle Direct <br> Publishing</a><br>indie Digital & <br> Print Publishing <br>Maed Easy</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Print Video <br>Direct</a><br>Video<br>Distribution<br>Made Easy</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Shopbop</a><br>Designer<br>Fashion Brands</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Woot!</a><br>Deals and<br>Shenanigans</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Zappos</a><br>Shoes &<br>Clothing</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Ring</a><br>Smart Home<br>Security<br>Systems</td>
+            <td class="verticalspace"><a href=""></td>
+          </tr>
+
+          <tr>
+            <td><a href="">&nbsp;</a><br>&nbsp;<br>&nbsp; <br>&nbsp;<br>&nbsp;</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">eero WiFi</a><br>Stream 4K Video<br>in Every Room</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Blink</a><br>Smat Security<br>For Every<br>Home</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Neighbours App</a><br>Real Time Crime<br>& Safety Alerts</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">Amazon Subsctiotion <br>Boxes</a><br>Top subscription boxes<br>-right to your door</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">PillPack</a><br>Pharmacy<br>Simplified</td>
+            <td class="verticalspace"><a href=""></td>
+            <td><a href="">&nbsp;</a><br>&nbsp;<br>&nbsp; <br>&nbsp;<br>&nbsp;</td>
+            <td class="verticalspace"><a href=""></td>
+          </tr>
+
+        </tbody>
+      </table>
+      </div>
+
+    </div>
+    
+    <div class="footer">
+      <div class="footer-row1">
+        <div>Conditions of Use</div>
+        <div>Privacy Note</div>
+        <div>Consumer Health Data Privacy Disclosure</div>
+        <div>Your Ads Private Choices</div>
+      </div>
+      <div class="footer-row2">
+        <div> &#169; 1996-2024, Amazon.com,Inc. or Its affliates</div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
